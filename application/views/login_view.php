@@ -6,9 +6,9 @@
 
 	<title>Login - WVSU JC Information System</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="<?php echo base_url(); ?>css/bootstrap4.min.css" rel="stylesheet" id="bootstrap-css">
 	<style type="text/css">
-		@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+		@import url("<?php echo base_url(); ?>css/fontawesome/css/font-awesome.min.css");
 		.login-block {
 			background: #DE6262;
 			/* fallback for old browsers */
@@ -22,7 +22,7 @@
 		}
 
 		.banner-sec {
-			background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
+			background: url(<?php echo base_url(); ?>images/pexels-photo.jpg) no-repeat left bottom;
 			background-size: cover;
 			min-height: 500px;
 			border-radius: 0 10px 10px 0;
@@ -158,8 +158,8 @@
 		} 
 
 	</style>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/jquery-1.11.1.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/bootstrap4.min.js"></script>
 	<script type="text/javascript">
 		window.alert = function () {};
 		var defaultCSS = document.getElementById('bootstrap-css');

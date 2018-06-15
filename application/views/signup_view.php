@@ -6,10 +6,10 @@
 
 	<title>Member SignUp</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="<?php echo base_url(); ?>css/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<style type="text/css">
-		@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
-		@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+		@import url(<?php echo base_url(); ?>fonts/roboto.css);
+		@import url(<?php echo base_url(); ?>fonts/roboto_condensed.css);
 
 		body {
 			background: #fff;
@@ -59,8 +59,8 @@
 		}
 
 	</style>
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/jquery-3.3.1.min.js"></script>
+	<script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		window.alert = function () {};
 		var defaultCSS = document.getElementById('bootstrap-css');
